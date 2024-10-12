@@ -101,7 +101,7 @@ if __name__ == "__main__":
                 break
 
         except Exception as e:
-            cap = cv2.VideoCapture(PATH_VIDEO)
+            cap = cv2.VideoCapture(PATH_CAM)
             cap.set(cv2.CAP_PROP_BUFFERSIZE,  0)
             cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 320)
             cap.set(cv2.CAP_PROP_FRAME_WIDTH, 320)
